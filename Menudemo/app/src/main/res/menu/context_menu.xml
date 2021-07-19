@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuMauxanh"
+        android:title="Mau Xanh">
+
+    </item>
+    <item
+        android:id="@+id/mnuMaudo"
+        android:title="Mau Do">
+
+    </item>
+    <item
+        android:id="@+id/mnuMautim"
+        android:title="Mau Tim">
+
+    </item>
+    <item
+        android:id="@+id/mnuMaunau"
+        android:title="Mau Nau">
+
+    </item>
+    <item
+        android:id="@+id/mnuMauvang"
+        android:title="Mau Vang">
+
+    </item>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".WriteReadActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Write n Read file ez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="blo bla..."
+        android:textStyle="italic"
+        android:id="@+id/edtTextSave"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></EditText>
+    <Button
+        android:id="@+id/btnSaveToFile"
+        android:text="Ghi du lieu vao file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="blo bla..."
+        android:textStyle="italic"
+        android:id="@+id/edtTextRead"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></EditText>
+    <Button
+        android:id="@+id/btnReadFromFile"
+        android:text="Doc du lieu tu file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>

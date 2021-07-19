@@ -1,0 +1,2 @@
+rootProject.name = "QLSPWithNodeJsService"
+include ':app'

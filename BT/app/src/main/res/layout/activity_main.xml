@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    Bai 1-->
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:orientation="vertical" android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <LinearLayout-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="#5169EF"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"></LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="#72DA31"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"></LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+<!--    Bai2-->
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:orientation="vertical" android:layout_width="match_parent"-->
+<!--        android:weightSum="30"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <LinearLayout-->
+<!--            android:layout_weight="20"-->
+<!--            android:background="#188AD6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"></LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_weight="10"-->
+<!--            android:background="#96D128"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"></LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+
+    <!--    Bai3-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_weight="1"
+            android:text="small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="a very very long text that need to wrap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <!--    Bai4-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="#FF0000"
+        android:weightSum="4"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="2"
+            android:background="#0A60DF"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:background="#851CB3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--    Bai5-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_weight="1"
+            android:text="Them moi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:layout_weight="1"
+            android:text="Huy bo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+    <!--    Bai6-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:padding="5dp"
+        android:weightSum="100"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_weight="70"
+
+            android:hint="This is a text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></EditText>
+        <Button
+            android:layout_weight="30"
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

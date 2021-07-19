@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@color/teal_200"
+    tools:context=".ResultActivity">
+    <EditText
+        android:hint="Nhap ho ten"
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        ></EditText>
+    <EditText
+        android:hint="Nhap tuoi"
+        android:id="@+id/edtTuoi"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></EditText>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rdbNam"
+            android:text="Nam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:text="Nu"
+            android:id="@+id/rdbNu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </RadioButton>
+    </RadioGroup>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtDiemTrungBinh"
+        android:hint="Nhap diem trung binh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Send"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnSend"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Back">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>

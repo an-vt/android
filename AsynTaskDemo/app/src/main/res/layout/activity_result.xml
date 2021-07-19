@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <EditText
+    android:id="@+id/edtHoTen"
+    android:hint="Nhập họ tên"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtTuoi"
+        android:hint="Nhập tuổi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_marginRight="50dp"
+            android:id="@+id/rdNam"
+            android:text="Nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/rdNữ"
+            android:text="Nữ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/edtDiemTB"
+        android:hint="Nhập điểm trung bình"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send">
+        </Button>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

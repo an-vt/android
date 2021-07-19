@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#EF0808"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/txtBookId"
+        android:hint="Book Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#EF0808"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/txtBookName"
+        android:hint="Book Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#EF0808"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/txtBookPage"
+        android:hint="Book Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#EF0808"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/txtBookPrice"
+        android:hint="Book Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#EF0808"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/txtBookDescription"
+        android:hint="Book Description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <Button
+           android:text="First"
+           android:id="@+id/btnFirst"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"></Button>
+        <Button
+            android:text="Pre"
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:text="Next"
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:text="Last"
+            android:id="@+id/btnLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+
+    </LinearLayout>
+
